@@ -26,7 +26,7 @@
                 android:id="@+id/search_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Search"/>
+                android:hint="Jl. Boulevard Raya"/>
         </LinearLayout>
 
 
@@ -322,7 +322,7 @@
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                app:srcCompat="@drawable/cough" />
+                                app:srcCompat="@drawable/umum" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -334,7 +334,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Batuk "
+                                android:text="Umum"
                                 android:textAlignment="center"
                                 android:textStyle="bold"/>
                         </LinearLayout>

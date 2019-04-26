@@ -33,8 +33,10 @@
             android:parentActivityName=".MenuActivity" />
         <activity android:name=".MenuPembelianObat" />
         <activity
-            android:name=".MenuObat"
-            android:parentActivityName=".MenuActivity" />
+            android:name=".MenuOtc"
+            android:parentActivityName=".MenuObat" />
+        <activity android:name=".MenuObat"
+            android:parentActivityName=".MenuActivity"/>
         <activity
             android:name=".MenuHistory"
             android:parentActivityName=".MenuActivity" />
@@ -46,9 +48,9 @@
             android:parentActivityName=".MenuActivity" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
-        <activity android:name=".AddKeluarga"
-            android:parentActivityName=".ProfilePasien">
-        </activity>
+        <activity
+            android:name=".AddKeluarga"
+            android:parentActivityName=".ProfilePasien" />
         <activity
             android:name=".PopNama"
             android:theme="@style/AppTheme.CustomTheme" />
@@ -60,8 +62,7 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopTelepon"
-            android:theme="@style/AppTheme.CustomTheme" >
-        </activity>
+            android:theme="@style/AppTheme.CustomTheme" />
     </application>
 
 </manifest>
