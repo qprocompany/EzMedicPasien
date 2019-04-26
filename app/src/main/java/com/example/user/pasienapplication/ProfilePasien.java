@@ -7,6 +7,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
 public class ProfilePasien extends AppCompatActivity {
@@ -49,26 +50,26 @@ public class ProfilePasien extends AppCompatActivity {
         });
 
 
-//        popNama = (ImageView) findViewById(R.id.popNama);
-//        popTinggal = (ImageView) findViewById(R.id.popTinggal);
+        popNama = (ImageView) findViewById(R.id.popNama);
+        popTinggal = (ImageView) findViewById(R.id.popTinggal);
 //        popTelepon = (ImageView) findViewById(R.id.popTelepon);
 //        popEmail = (ImageView) findViewById(R.id.popEmail);
 //        popNegara = (ImageView) findViewById(R.id.popNegara);
 //        popLahir = (ImageView) findViewById(R.id.popLahir);
 
-//        popNama.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(ProfilePasien.this, PopNama.class));
-//            }
-//        });
-//
-//        popTinggal.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(ProfilePasien.this, PopTinggal.class));
-//            }
-//        });
+        popNama.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopNama.class));
+            }
+        });
+
+        popTinggal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopTinggal.class));
+            }
+        });
 //
 //        popTelepon.setOnClickListener(new View.OnClickListener() {
 //            @Override
