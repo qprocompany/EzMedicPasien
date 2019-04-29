@@ -1,6 +1,7 @@
 package com.example.user.pasienapplication;
 
 import android.content.Intent;
+import android.provider.MediaStore;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,7 +12,8 @@ import android.widget.LinearLayout;
 
 public class MenuObat extends AppCompatActivity {
 
-    LinearLayout resep, scan, otc;
+    LinearLayout resep, foto, otc;
+    private static final int CAN_REQUEST=1313;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +31,14 @@ public class MenuObat extends AppCompatActivity {
 //            }
 //        });
 
-//        scan = (LinearLayout) findViewById(R.id.scan);
-//        scan.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent =  new Intent(MenuObat.this, MenuScan.class);
-//                startActivity(intent);
-//            }
-//        });
+        foto = (LinearLayout) findViewById(R.id.foto);
+        foto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuObat.this, FotoResep.class);
+                startActivity(intent);
+            }
+        });
 
         otc = (LinearLayout) findViewById(R.id.otc);
         otc.setOnClickListener(new View.OnClickListener() {
