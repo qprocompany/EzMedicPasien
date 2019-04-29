@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">PasienApplication</string>
+
     <string name="nav_home">Home</string>
+
     <string name="nav_profile">Profile</string>
+
     <string name="nav_more">More</string>
+
+    <string-array name="hubungan">
+        <item>Pilih</item>
+        <item>Ayah</item>
+        <item>Ibu</item>
+        <item>Adek</item>
+        <item>Kakak</item>
+    </string-array>
+
 </resources>

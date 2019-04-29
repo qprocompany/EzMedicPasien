@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuOtc"
+            android:parentActivityName=".MenuObat"></activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,10 +36,8 @@
             android:parentActivityName=".MenuActivity" />
         <activity android:name=".MenuPembelianObat" />
         <activity
-            android:name=".MenuOtc"
-            android:parentActivityName=".MenuObat" />
-        <activity android:name=".MenuObat"
-            android:parentActivityName=".MenuActivity"/>
+            android:name=".MenuObat"
+            android:parentActivityName=".MenuActivity" />
         <activity
             android:name=".MenuHistory"
             android:parentActivityName=".MenuActivity" />
