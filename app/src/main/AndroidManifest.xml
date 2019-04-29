@@ -44,6 +44,9 @@
         <activity
             android:name=".MenuRadiologi"
             android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".RatingHistory"
+            android:parentActivityName=".MenuAppointment" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity

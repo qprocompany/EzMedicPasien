@@ -14,27 +14,31 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="20dp">
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Isi Nomor Telepon Anda:"
-            android:textSize="17dp"
-            android:textStyle="bold" />
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:numStars="5"
+            android:progressTint="@color/colorFlower"
+            android:backgroundTint="@color/colorFlower"
+            android:rating="4.5"/>
 
-        <EditText
-            android:id="@+id/editTelepon"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPhonetic"/>
+            android:text="Dokter nya lumayan, orangnya santai tidak marah - marah"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
         <Button
             android:id="@+id/buttonTelepon"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Simpan"
-            android:textSize="17dp"
+            android:text="back"
+            android:textSize="16dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/radiusblue"
             android:textColor="@color/colorWhite"

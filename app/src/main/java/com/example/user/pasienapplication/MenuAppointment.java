@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class MenuAppointment extends AppCompatActivity {
 
     TextView v;
-    LinearLayout dokter1;
+    LinearLayout dokter1, ratingHistory;
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
 
@@ -26,6 +26,7 @@ public class MenuAppointment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_appointment);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Appointment");
 
@@ -34,6 +35,15 @@ public class MenuAppointment extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =  new Intent(MenuAppointment.this, IsiDokter.class);
+                startActivity(intent);
+            }
+        });
+
+        ratingHistory = (LinearLayout) findViewById(R.id.ratingHistory);
+        ratingHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuAppointment.this, RatingHistory.class);
                 startActivity(intent);
             }
         });

@@ -226,14 +226,19 @@
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:id="@+id/btnRequest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:text="Request"
-        android:background="@drawable/radius"
-        android:elevation="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Appointment"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/radiusblue"
+            android:elevation="5dp"/>
+    </RelativeLayout>
 
 </LinearLayout>
