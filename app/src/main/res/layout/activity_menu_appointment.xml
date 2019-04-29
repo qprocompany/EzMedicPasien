@@ -76,7 +76,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
-                        android:text="Dr. Muhammad Selamat" />
+                        android:text="Dr. Muhammad Selamat"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -173,7 +175,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
-                        android:text="Dr. Shiva Mafouz" />
+                        android:text="Dr. Shiva Mafouz"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"/>
 
                     <TextView
                         android:id="@+id/textView13"

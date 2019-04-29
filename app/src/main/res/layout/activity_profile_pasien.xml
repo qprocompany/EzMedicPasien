@@ -261,11 +261,19 @@
                                 android:textSize="16dp" />
 
                             <TextView
+                                android:id="@+id/textView41"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6289103994059"
+                                android:textSize="16dp" />
+
+                            <TextView
                                 android:id="@+id/textView36"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Ayah"
                                 android:textSize="16dp" />
+
 
                         </LinearLayout>
 
@@ -430,6 +438,13 @@
                                 android:layout_height="wrap_content"
                                 android:text="Brian Imanuel Soewarno "
                                 android:textColor="@color/colorBlack"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/textView42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6289405869405"
                                 android:textSize="16dp" />
 
                             <TextView
@@ -601,6 +616,13 @@
                                 android:layout_height="wrap_content"
                                 android:text="Samantha Blue"
                                 android:textColor="@color/colorBlack"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/textView43"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6283940596019"
                                 android:textSize="16dp" />
 
                             <TextView
