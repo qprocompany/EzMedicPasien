@@ -22,7 +22,7 @@ public class IsiDokter extends AppCompatActivity {
         btnRequest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(IsiDokter.this, MenuActivity.class);
+                Intent intent =  new Intent(IsiDokter.this, FormRatingDokter.class);
                 startActivity(intent);
             }
         });

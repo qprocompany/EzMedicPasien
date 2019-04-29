@@ -19,7 +19,7 @@ public class ProfilePasien extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_pasien);
 
-        getSupportActionBar().setTitle("MY PROFILE");
+        getSupportActionBar().setTitle("My Profile");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNav);
         Menu menu = bottomNavigationView.getMenu();

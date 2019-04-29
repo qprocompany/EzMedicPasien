@@ -11,7 +11,7 @@ public class IsiNotif extends AppCompatActivity {
         setContentView(R.layout.activity_isi_notif);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("NOTIFIKASI");
+        getSupportActionBar().setTitle("Notifikasi");
 
 
     }

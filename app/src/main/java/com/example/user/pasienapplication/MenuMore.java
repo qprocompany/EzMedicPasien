@@ -22,7 +22,7 @@ public class MenuMore extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_more);
 
-        getSupportActionBar().setTitle("MORE");
+        getSupportActionBar().setTitle("More");
 
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNav);

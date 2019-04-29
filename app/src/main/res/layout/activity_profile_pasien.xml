@@ -116,8 +116,6 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="70dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="10dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -140,7 +138,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="70dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="10dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -264,11 +261,19 @@
                                 android:textSize="16dp" />
 
                             <TextView
+                                android:id="@+id/textView41"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6289103994059"
+                                android:textSize="16dp" />
+
+                            <TextView
                                 android:id="@+id/textView36"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Ayah"
                                 android:textSize="16dp" />
+
 
                         </LinearLayout>
 
@@ -323,8 +328,6 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -347,7 +350,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -439,6 +441,13 @@
                                 android:textSize="16dp" />
 
                             <TextView
+                                android:id="@+id/textView42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6289405869405"
+                                android:textSize="16dp" />
+
+                            <TextView
                                 android:id="@+id/textView24"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -497,8 +506,6 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -521,7 +528,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -613,6 +619,13 @@
                                 android:textSize="16dp" />
 
                             <TextView
+                                android:id="@+id/textView43"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+6283940596019"
+                                android:textSize="16dp" />
+
+                            <TextView
                                 android:id="@+id/textView30"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -671,8 +684,6 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -695,7 +706,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="70dp"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="10dp"
                             android:orientation="vertical">
 
                             <ImageView

@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.pasienapplication">
 
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FotoResep"></activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,9 +35,8 @@
         <activity
             android:name=".MenuOtc"
             android:parentActivityName=".MenuObat" />
-        <activity
-            android:name=".MenuObat"
-            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".MenuObat"
+            android:parentActivityName=".MenuActivity"/>
         <activity
             android:name=".MenuHistory"
             android:parentActivityName=".MenuActivity" />
