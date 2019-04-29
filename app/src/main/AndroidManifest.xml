@@ -33,10 +33,8 @@
             android:parentActivityName=".MenuActivity" />
         <activity android:name=".MenuPembelianObat" />
         <activity
-            android:name=".MenuOtc"
-            android:parentActivityName=".MenuObat" />
-        <activity android:name=".MenuObat"
-            android:parentActivityName=".MenuActivity"/>
+            android:name=".MenuObat"
+            android:parentActivityName=".MenuActivity" />
         <activity
             android:name=".MenuHistory"
             android:parentActivityName=".MenuActivity" />

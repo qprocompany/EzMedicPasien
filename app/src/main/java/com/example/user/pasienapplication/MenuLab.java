@@ -5,8 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+
+import java.util.ArrayList;
 
 public class MenuLab extends AppCompatActivity {
+
+    AutoCompleteTextView search_item;
+    ArrayList<String> street = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +21,20 @@ public class MenuLab extends AppCompatActivity {
         setContentView(R.layout.activity_menu_lab);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Lab Check");
+
+        search_item = (AutoCompleteTextView)findViewById(R.id.search_item);
+
+        street.add("Kelapa Gading");
+        street.add("Sunter");
+        street.add("Roxy");
+        street.add("Thamrin");
+        street.add("Gajah Mada");
+        street.add("Harmoni");
+        street.add("Kuningan");
+        street.add("Pulo Gadung");
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MenuLab.this,android.R.layout.simple_spinner_dropdown_item,street);
+        search_item.setAdapter(adapter);
 
     }
 
