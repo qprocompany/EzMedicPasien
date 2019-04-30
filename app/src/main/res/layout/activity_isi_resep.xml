@@ -9,24 +9,25 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:orientation="vertical">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="165dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:layout_margin="5dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_margin="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="100dp"
@@ -45,17 +46,17 @@
                     <LinearLayout
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView56"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Panadol 500mg"
-                            android:textSize="12dp"
                             android:textColor="@color/colorBlack"
-                            android:textStyle="bold"/>
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView55"
@@ -63,21 +64,38 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:text="3 x sehari"
-                            android:textColor="@color/colorBlack"/>
+                            android:textColor="@color/colorBlack" />
 
                         <TextView
                             android:id="@+id/textView57"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Qty : 12 tablet"
-                            android:textColor="@color/colorBlack"/>
+                            android:textColor="@color/colorBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.12.500,00"
+                            android:textColor="@color/colorBlack" />
                     </LinearLayout>
 
                 </LinearLayout>
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_margin="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -97,17 +115,17 @@
                     <LinearLayout
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView58"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Panadol 500mg"
-                            android:textSize="12dp"
+                            android:text="Woods Batuk Berdahak"
                             android:textColor="@color/colorBlack"
-                            android:textStyle="bold"/>
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView59"
@@ -115,18 +133,113 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:text="1 x sehari"
-                            android:textColor="@color/colorBlack"/>
+                            android:textColor="@color/colorBlack" />
 
                         <TextView
                             android:id="@+id/textView60"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Qty : 1 botol"
-                            android:textColor="@color/colorBlack"/>
+                            android:textColor="@color/colorBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.65.000,00"
+                            android:textColor="@color/colorBlack" />
                     </LinearLayout>
 
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorBlack"
+            android:padding="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/radius"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Semua:"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="Rp.72.500,00"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorBlack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/radius"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail Alamat :"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Jl. Cikini Raya Blok M no 201. Kota Jkt Utara. Daerah Khusus ibukota Jakarta, Indonesia" />
+
+        </LinearLayout>
+
     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radiusblue"
+            android:text="Order"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
 </LinearLayout>
