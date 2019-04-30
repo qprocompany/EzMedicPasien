@@ -6,20 +6,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".FotoResep"
-    android:background="@color/colorWhite">
+    android:background="@color/colorWhite"
+    android:weightSum="10">
 
     <ImageView
         android:id="@+id/hasil"
-        android:layout_width="300dp"
-        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_gravity="center"
-        android:background="@drawable/radius" />
+        android:background="@drawable/radius"
+        android:layout_weight="9"/>
 
     <Button
         android:id="@+id/capture"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_gravity="center"
-        android:text="capture"/>
+        android:text="capture"
+        android:layout_weight="1"/>
 
 </LinearLayout>

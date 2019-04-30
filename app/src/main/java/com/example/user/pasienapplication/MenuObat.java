@@ -6,8 +6,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
@@ -15,6 +17,7 @@ public class MenuObat extends AppCompatActivity {
 
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
+    LinearLayout fotoresep;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,15 @@ public class MenuObat extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MenuObat.this,android.R.layout.simple_spinner_dropdown_item,street);
         search_item.setAdapter(adapter);
+
+        fotoresep = (LinearLayout) findViewById(R.id.fotoresep);
+        fotoresep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuObat.this, FotoResep.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

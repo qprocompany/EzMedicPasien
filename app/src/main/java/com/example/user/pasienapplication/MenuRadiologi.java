@@ -35,6 +35,7 @@ public class MenuRadiologi extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MenuRadiologi.this,android.R.layout.simple_spinner_dropdown_item,street);
         search_item.setAdapter(adapter);
+
     }
 
     @Override
