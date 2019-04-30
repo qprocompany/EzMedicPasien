@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".FotoResep"
-    android:background="@color/colorWhite"
+    android:orientation="vertical"
     android:weightSum="10">
 
     <ImageView
@@ -21,16 +20,36 @@
         android:background="@drawable/radius"
         android:layout_weight="9"/>
 
-    <Button
-        android:id="@+id/capture"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_gravity="center"
-        android:text="capture"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:onClick="OpenCamera"
+            android:text="capture"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/setuju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:onClick="OpenCamera"
+            android:text="Confirm"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
 </LinearLayout>
