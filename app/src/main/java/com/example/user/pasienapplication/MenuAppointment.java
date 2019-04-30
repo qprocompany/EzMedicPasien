@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class MenuAppointment extends AppCompatActivity {
 
     TextView v;
-    LinearLayout dokter1, ratingHistory;
+    LinearLayout dokter1, ratingHistory, spesialUmum;
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
 
@@ -44,6 +44,15 @@ public class MenuAppointment extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =  new Intent(MenuAppointment.this, RatingHistory.class);
+                startActivity(intent);
+            }
+        });
+
+        spesialUmum = (LinearLayout) findViewById(R.id.spesialUmum);
+        spesialUmum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuAppointment.this, SpesialisUmum.class);
                 startActivity(intent);
             }
         });

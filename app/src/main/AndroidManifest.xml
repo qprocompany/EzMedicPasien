@@ -53,6 +53,12 @@
         <activity android:name=".IsiResep"
             android:parentActivityName=".ResepDokter">
         </activity>
+        <activity
+            android:name=".SpesialisUmum"
+            android:parentActivityName=".MenuAppointment" />
+        <activity
+            android:name=".ObatBatuk"
+            android:parentActivityName=".MenuObat" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
