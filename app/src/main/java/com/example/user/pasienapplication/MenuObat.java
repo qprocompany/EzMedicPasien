@@ -18,7 +18,7 @@ public class MenuObat extends AppCompatActivity {
 
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
-    LinearLayout resep, sakitBatuk;
+    LinearLayout resep, sakitBatuk, captures;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,15 @@ public class MenuObat extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =  new Intent(MenuObat.this, ResepDokter.class);
+                startActivity(intent);
+            }
+        });
+
+        captures = (LinearLayout) findViewById(R.id.captures);
+        captures.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuObat.this, FotoResep.class);
                 startActivity(intent);
             }
         });
