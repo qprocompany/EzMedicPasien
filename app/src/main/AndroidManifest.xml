@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResepDokter"></activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,6 +47,12 @@
         <activity
             android:name=".RatingHistory"
             android:parentActivityName=".MenuAppointment" />
+        <activity
+            android:name=".ResepDokter"
+            android:parentActivityName=".MenuObat"></activity>
+        <activity android:name=".IsiResep"
+            android:parentActivityName=".ResepDokter">
+        </activity>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
