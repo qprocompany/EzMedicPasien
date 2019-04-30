@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 import java.util.ArrayList;
@@ -17,14 +18,24 @@ public class MenuObat extends AppCompatActivity {
 
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
-    LinearLayout fotoresep;
+    LinearLayout resep;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_obat);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Buy Medicine");
+
+        resep = (LinearLayout) findViewById(R.id.resep);
+        resep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuObat.this, ResepDokter.class);
+                startActivity(intent);
+            }
+        });
 
         search_item = (AutoCompleteTextView)findViewById(R.id.search_item);
 
@@ -39,15 +50,6 @@ public class MenuObat extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MenuObat.this,android.R.layout.simple_spinner_dropdown_item,street);
         search_item.setAdapter(adapter);
-
-        fotoresep = (LinearLayout) findViewById(R.id.fotoresep);
-        fotoresep.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent =  new Intent(MenuObat.this, FotoResep.class);
-                startActivity(intent);
-            }
-        });
     }
 
     @Override
