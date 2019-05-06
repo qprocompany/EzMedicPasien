@@ -71,14 +71,29 @@
                             android:background="@color/colorBlack"
                             android:padding="0.2dp"></LinearLayout>
 
-                        <TextView
-                            android:id="@+id/textView42"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="end"
-                            android:text="25 jan, 10:47 PM 2019"
-                            android:textAlignment="textEnd"
-                            android:textSize="14dp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="end"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:text="25 mei 2019"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="18:40 PM"
+                                android:textAlignment="center"
+                                android:textSize="14dp" />
+                        </LinearLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -167,14 +182,29 @@
                             android:background="@color/colorBlack"
                             android:padding="0.2dp"></LinearLayout>
 
-                        <TextView
-                            android:id="@+id/textView23"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="end"
-                            android:text="01 apr, 08:47 PM 2019"
-                            android:textAlignment="textEnd"
-                            android:textSize="14dp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="end"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:text="19 Apr 2019"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="10:15 AM"
+                                android:textAlignment="center"
+                                android:textSize="14dp" />
+                        </LinearLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -236,7 +266,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="vertical"
@@ -265,15 +295,30 @@
                             android:background="@color/colorBlack"
                             android:padding="0.2dp"></LinearLayout>
 
-                        <TextView
-                            android:id="@+id/textView25"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="end"
-                            android:layout_weight="1"
-                            android:text="25 mar, 11:51 AM 2019"
-                            android:textAlignment="textEnd"
-                            android:textSize="14dp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="end"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:text="25 mar 2019"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="14:47 PM"
+                                android:textAlignment="center"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
                     </LinearLayout>
 
                     <LinearLayout
