@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 
 public class SpesialisUmum extends AppCompatActivity {
 
-    LinearLayout dokter1;
+    LinearLayout dokter1, lokasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,15 @@ public class SpesialisUmum extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =  new Intent(SpesialisUmum.this, IsiDokter.class);
+                startActivity(intent);
+            }
+        });
+
+        lokasi = (LinearLayout) findViewById(R.id.lokasi);
+        lokasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(SpesialisUmum.this, IsiLokasi.class);
                 startActivity(intent);
             }
         });

@@ -19,6 +19,6 @@ public class PopTinggal extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.8),(int) (height*.2));
     }
 }

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObatBebas"></activity>
+        <activity android:name=".ObatBebas" />
         <activity android:name=".FotoResep" />
         <activity android:name=".MenuActivity">
             <intent-filter>
@@ -61,6 +61,9 @@
         <activity
             android:name=".ObatBatuk"
             android:parentActivityName=".MenuObat" />
+        <activity android:name=".IsiLokasi"
+        android:parentActivityName=".SpesialisUmum">
+        </activity>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
