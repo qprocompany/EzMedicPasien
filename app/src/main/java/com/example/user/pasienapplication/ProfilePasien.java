@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class ProfilePasien extends AppCompatActivity {
 
-    ImageView popNama, popEmail, popTelepon, popLahir, popNegara, popTinggal;
+    ImageView popNama, popEmail, popTelepon, popLahir, popNegara, popTinggal, popNama1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,7 @@ public class ProfilePasien extends AppCompatActivity {
 
 
         popNama = (ImageView) findViewById(R.id.popNama);
+        popNama1 = (ImageView) findViewById(R.id.popNama1);
         popTinggal = (ImageView) findViewById(R.id.popTinggal);
 //        popTelepon = (ImageView) findViewById(R.id.popTelepon);
 //        popEmail = (ImageView) findViewById(R.id.popEmail);
@@ -58,6 +59,12 @@ public class ProfilePasien extends AppCompatActivity {
 //        popLahir = (ImageView) findViewById(R.id.popLahir);
 
         popNama.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopNama.class));
+            }
+        });
+        popNama1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ProfilePasien.this, PopNama.class));
