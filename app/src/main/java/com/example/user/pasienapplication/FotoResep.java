@@ -23,6 +23,9 @@ public class FotoResep extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foto_resep);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Foto Resep");
+
         hasil = findViewById(R.id.hasil);
 
         setuju = (Button) findViewById(R.id.setuju);

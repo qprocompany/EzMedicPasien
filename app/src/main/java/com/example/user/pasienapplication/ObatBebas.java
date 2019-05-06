@@ -21,6 +21,9 @@ public class ObatBebas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_obat_bebas);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Obat Bebas");
+
         sakitBatuk = (LinearLayout) findViewById(R.id.sakitBatuk);
         sakitBatuk.setOnClickListener(new View.OnClickListener() {
             @Override

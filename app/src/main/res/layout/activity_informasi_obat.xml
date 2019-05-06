@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InformasiObat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/search"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/search_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:hint="Search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/amoxicillin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Amoxicillin"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Antibiotik penicillin"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Amoxicillin merupakan obat yang sangat terkenal di kalangan masyarakat di dunia karena kegunaannya yang beragam. Amoxicillin adalah obat golongan antibiotik penicillin yang biasa digunakan untuk mengobati berbagai macam infeksi bakteri, dengan cara menghentikan pertumbuhan bakteri.
+
+            Obat ini tidak bekerja untuk mengobati infeksi virus seperti flu. Amoxicillin memiliki nama paten yang jumlahnya mencapai ratusan buah, mulai dari Penmox, Intermoxyl, Ospamox, Amoxsan, dll. Ampicillin, Piperacillin, Ticarcillin juga termasuk dalam golongan ini dan memiliki cara kerja yang mirip. Amoxicillin sangat efektif untuk beberapa bakteri seperti H. influenzae, N. gonorrhoea, E. coli, Pneumococci, Streptococci, dan beberapa strain dari Staphylococci "/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dosis Dewasa Biasa untuk Infeksi Bakteri: 250-500 mg secara oral 3 kali sehari selama 7-21 hari;
+            * alternatif, 500-875 mg secara oral dua kali sehari dapat diberikan."/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dosis Anak-anak Biasa untuk Tonsilitis/Faringitis : \n\n- Usia 4 minggu-3 bulan: 20-30 mg/kg/hari dalam dosis terbagi setiap 12 jam. \n- Usia 4 bulan-12 tahun: 20-50 mg/kg/hari dalam dosis terbagi setiap 8-12 jam. \n- 12 tahun atau lebih tua: \n   - Immediate-release : 250-500 mg secara oral 3 kali \n     sehari selama 7-10 hari; alternatif, 500-875 mg \n     secara oral dua kali sehari dapat diberikan.\n   - Extended-release: 775 mg oral sekali sehari dalam \n     waktu 1 jam setelah makan selama 10 hari; untuk \n     infeksi  Streptococcus pyogenes sekunder."/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Efek samping yang biasa muncul seperti mual, muntah, diare ringan, ruam kulit. Efek samping lainnya yang lebih parah dan jarang ditemui berupa perubahan mental, sakit kepala ringan, insomnia, kebingungan, kecemasan, jika ditemukan seperti di atas dapat langsung menghubungi dokter. Perawatan medis juga diperlukan jika ditemukan reaksi hipersensitivitas terhadap amoxicillin dan dapat mengalami shock anafilatik yang berakibat fatal. Cara penyimpanan obat ini terbilang cukup mudah dan seperti obat – obat lainnya, hanya perlu disimpan di suhu ruangan."/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Penggunaan antibiotik yang berlebihan atau tidak mengikuti anjuran dokter sangatlah berbahaya dan dapat menyebabkan efektivitasnya menurun.
+
+            Jika Anda sedang menkonsumsi  obat resep, obat non resep, vitamin, suplemen gizi, dan produk herbal, beritahukan dokter yang menangani Anda sehingga dokter bisa memperhitungkan dosis yang tepat.
+
+            Untuk wanita yang sedang hamil, berencana hamil, menyusui, ataupun hamil saat mengkonsumsi amoxicillin, segera hubungi dokter untuk pemeriksaan lebih lanjut."/>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

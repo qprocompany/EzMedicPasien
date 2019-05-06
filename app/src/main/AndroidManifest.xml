@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObatBebas" />
-        <activity android:name=".FotoResep" />
+        <activity android:name=".InformasiObat"></activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,6 +37,12 @@
             android:name=".MenuObat"
             android:parentActivityName=".MenuActivity" />
         <activity
+            android:name=".ObatBebas"
+            android:parentActivityName=".MenuObat" />
+        <activity
+            android:name=".FotoResep"
+            android:parentActivityName=".MenuObat" />
+        <activity
             android:name=".MenuHistory"
             android:parentActivityName=".MenuActivity" />
         <activity
@@ -61,9 +66,9 @@
         <activity
             android:name=".ObatBatuk"
             android:parentActivityName=".MenuObat" />
-        <activity android:name=".IsiLokasi"
-        android:parentActivityName=".SpesialisUmum">
-        </activity>
+        <activity
+            android:name=".IsiLokasi"
+            android:parentActivityName=".SpesialisUmum"></activity>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
