@@ -6,50 +6,32 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class MenuHistory extends AppCompatActivity {
+public class IsiHistoryAppoint extends AppCompatActivity {
 
     LinearLayout historylistpasien, beliobatHistory, appointHistory, radiologiHistory, ceklabHistory;;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_history);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("History Profile");
+        setContentView(R.layout.activity_isi_history_appoint);
 
-        historylistpasien = (LinearLayout) findViewById(R.id.historylist);
-        historylistpasien.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MenuHistory.this, IsiHistory.class);
-                startActivity(intent);
-            }
-        });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("History Appointment");
 
         beliobatHistory = (LinearLayout) findViewById(R.id.beliobatHistory);
         beliobatHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuHistory.this, IsiHistoryObat.class);
+                Intent intent = new Intent(IsiHistoryAppoint.this, IsiHistoryObat.class);
                 startActivity(intent);
             }
         });
-
-        appointHistory = (LinearLayout) findViewById(R.id.appointHistory);
-        appointHistory.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MenuHistory.this, IsiHistoryAppoint.class);
-                startActivity(intent);
-            }
-        });
-
 
         ceklabHistory = (LinearLayout) findViewById(R.id.ceklabHistory);
         ceklabHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuHistory.this, IsiHistoryCekLab.class);
+                Intent intent = new Intent(IsiHistoryAppoint.this, IsiHistoryCekLab.class);
                 startActivity(intent);
             }
         });
@@ -58,10 +40,9 @@ public class MenuHistory extends AppCompatActivity {
         radiologiHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuHistory.this, IsiHistoryRadiologi.class);
+                Intent intent = new Intent(IsiHistoryAppoint.this, IsiHistoryRadiologi.class);
                 startActivity(intent);
             }
         });
-
     }
 }

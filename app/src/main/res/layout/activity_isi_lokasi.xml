@@ -10,28 +10,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/map1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:background="@drawable/radius"
         android:elevation="5dp"
-        android:orientation="vertical"
-        android:background="@drawable/radius">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView71"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lokasi Anda"
             android:layout_margin="2dp"
+            android:text="Lokasi Anda"
             android:textSize="14dp" />
 
         <TextView
@@ -49,8 +38,8 @@
             android:id="@+id/textView69"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jarak Lokasi"
             android:layout_margin="2dp"
+            android:text="Jarak Lokasi"
             android:textSize="14dp" />
 
         <TextView
@@ -64,6 +53,17 @@
             android:textStyle="bold" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/located" />
+    </LinearLayout>
 
 
 </LinearLayout>
