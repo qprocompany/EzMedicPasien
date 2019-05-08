@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class IsiResep extends AppCompatActivity {
 
-    LinearLayout popEmail,popEmail1,popEmail2,popEmail3;
+    LinearLayout popEmail,popEmail1,popEmail2,popEmail3, isiGantiAlamat;
     Button orders;
 
     @Override
@@ -29,6 +29,14 @@ public class IsiResep extends AppCompatActivity {
             }
         });
 
+        isiGantiAlamat = (LinearLayout) findViewById(R.id.GantiAlamat);
+        isiGantiAlamat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiResep.this, IsiGantiAlamat.class);
+                startActivity(intent);
+            }
+        });
 
         popEmail = (LinearLayout) findViewById(R.id.popEmail);
         popEmail.setOnClickListener(new View.OnClickListener() {

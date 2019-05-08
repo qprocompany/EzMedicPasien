@@ -509,7 +509,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Jl. Cikini Raya Blok M no 201. Kota Jkt Utara. Daerah Khusus ibukota Jakarta, Indonesia" />
+                android:text="Jl. Cikini Raya Blok M no 201. Kota Jkt Utara. Daerah Khusus ibukota Jakarta, Indonesia"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/GantiAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/radius"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ganti Alamat"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 

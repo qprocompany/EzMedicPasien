@@ -14,5 +14,6 @@
         <item>Adek</item>
         <item>Kakak</item>
     </string-array>
+    <string name="title_activity_isi_ubah_alamat">IsiUbahAlamat</string>
 
 </resources>

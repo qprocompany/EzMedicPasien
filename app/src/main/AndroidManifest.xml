@@ -69,17 +69,26 @@
         <activity
             android:name=".IsiLokasi"
             android:parentActivityName=".SpesialisUmum" />
-        <activity android:name=".IsiHistoryObat"
+        <activity
+            android:name=".IsiHistoryObat"
             android:parentActivityName=".MenuHistory" />
-        <activity android:name=".IsiHistoryAppoint"
+        <activity
+            android:name=".IsiHistoryAppoint"
             android:parentActivityName=".MenuHistory" />
-        <activity android:name=".IsiHistoryRadiologi"
+        <activity
+            android:name=".IsiHistoryRadiologi"
             android:parentActivityName=".MenuHistory" />
-        <activity android:name=".IsiHistoryCekLab"
-            android:parentActivityName=".MenuHistory">
-        </activity>
+        <activity
+            android:name=".IsiHistoryCekLab"
+            android:parentActivityName=".MenuHistory" />
+        <activity
+            android:name=".TambahAlamat"
+            android:parentActivityName=".IsiGantiAlamat"/>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
+        <activity
+            android:name=".IsiGantiAlamat"
+            android:parentActivityName=".IsiResep" />
         <activity
             android:name=".AddKeluarga"
             android:parentActivityName=".ProfilePasien" />
