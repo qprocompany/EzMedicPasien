@@ -9,7 +9,9 @@ import android.widget.LinearLayout;
 
 public class IsiResep extends AppCompatActivity {
 
+    LinearLayout popEmail,popEmail1,popEmail2,popEmail3;
     Button orders;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,42 @@ public class IsiResep extends AppCompatActivity {
             }
         });
 
+
+        popEmail = (LinearLayout) findViewById(R.id.popEmail);
+        popEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiResep.this, PopEmail.class);
+                startActivity(intent);
+            }
+        });
+
+        popEmail1 = (LinearLayout) findViewById(R.id.popEmail1);
+        popEmail1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiResep.this, PopEmail.class);
+                startActivity(intent);
+            }
+        });
+
+        popEmail2 = (LinearLayout) findViewById(R.id.popEmail2);
+        popEmail2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiResep.this, PopEmail.class);
+                startActivity(intent);
+            }
+        });
+
+        popEmail3 = (LinearLayout) findViewById(R.id.popEmail3);
+        popEmail3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiResep.this, PopEmail.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

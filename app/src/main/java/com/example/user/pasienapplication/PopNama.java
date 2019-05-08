@@ -13,7 +13,6 @@ import android.widget.RadioGroup;
 public class PopNama extends Activity {
 
     RadioGroup radioGroup;
-    RadioButton radioButton;
     Button buttonNama;
 
     @Override
