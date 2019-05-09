@@ -38,13 +38,12 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/kapotek"
-                            android:layout_margin="5dp"/>
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/kapotek" />
                     </LinearLayout>
 
-
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:orientation="vertical">
@@ -112,27 +111,40 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="right">
-
-                                <Button
-                                    android:id="@+id/popOrder"
-                                    android:layout_width="70dp"
-                                    android:layout_height="30dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="Order"
-                                    android:textColor="@color/colorWhite"
-                                    android:background="@drawable/radiusblue"
-                                    android:textSize="10dp" />
-
-                            </LinearLayout>
                         </LinearLayout>
 
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HET"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <Button
+                            android:id="@+id/popOrder"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/radiusblue"
+                            android:text="Order"
+                            android:textColor="@color/colorWhite"
+                            android:textAlignment="center"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -156,15 +168,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/kimiafarma"
-                            android:layout_margin="5dp"/>
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/kimiafarma" />
 
                     </LinearLayout>
 
-
-
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:orientation="vertical">
@@ -232,26 +242,38 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="right">
-
-                                <Button
-                                    android:id="@+id/popCekHarga"
-                                    android:layout_width="70dp"
-                                    android:layout_height="30dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="Cek Harga "
-                                    android:textColor="@color/colorWhite"
-                                    android:background="@drawable/radiusblue"
-                                    android:textSize="10dp" />
-
-                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Harga Pas"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:id="@+id/popCekHarga"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/radiusblue"
+                            android:text="Cek Harga "
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -276,15 +298,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/ksingkawang"
-                            android:layout_margin="5dp"/>
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/ksingkawang" />
 
                     </LinearLayout>
 
-
-
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:orientation="vertical">
@@ -352,26 +372,38 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="right">
-
-                                <Button
-                                    android:layout_width="70dp"
-                                    android:layout_height="30dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="Order"
-                                    android:textColor="@color/colorWhite"
-                                    android:background="@drawable/radiusblue"
-                                    android:textSize="10dp"
-                                    android:layout_alignParentRight="true"/>
-
-                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="HET"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/radiusblue"
+                            android:text="Order"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -396,15 +428,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/k24"
-                            android:layout_margin="5dp"/>
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/k24" />
 
                     </LinearLayout>
 
-
-
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:orientation="vertical">
@@ -472,26 +502,37 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="right">
-
-                                <Button
-                                    android:layout_width="70dp"
-                                    android:layout_height="30dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="Cek Harga"
-                                    android:textColor="@color/colorWhite"
-                                    android:background="@drawable/radiusblue"
-                                    android:textSize="10dp"
-                                    />
-
-                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Harga Pas"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/radiusblue"
+                            android:text="Cek Harga "
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
         </LinearLayout>
     </ScrollView>
