@@ -119,23 +119,17 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp">
+                                android:layout_marginLeft="10dp">
 
-                                <ImageView
-                                    android:layout_width="25dp"
-                                    android:layout_height="25dp"
+                                <Button
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/orders" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="5dp"
                                     android:text="Order"
-                                    android:textColor="@color/colorBlack"
-                                    android:textSize="12dp" />
+                                    android:textColor="@color/colorWhite"
+                                    android:background="@drawable/radiusblue"
+                                    android:textSize="8dp"/>
+
                             </LinearLayout>
                         </LinearLayout>
 
@@ -250,23 +244,17 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp">
+                                android:layout_marginLeft="10dp">
 
-                                <ImageView
-                                    android:layout_width="25dp"
-                                    android:layout_height="25dp"
+                                <Button
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/pricetag" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="5dp"
                                     android:text="Cek Harga"
-                                    android:textColor="@color/colorBlack"
-                                    android:textSize="12dp" />
+                                    android:textColor="@color/colorWhite"
+                                    android:background="@drawable/radiusblue"
+                                    android:textSize="8dp"/>
+
                             </LinearLayout>
                         </LinearLayout>
 
@@ -380,23 +368,17 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp">
+                                android:layout_marginLeft="10dp">
 
-                                <ImageView
-                                    android:layout_width="25dp"
-                                    android:layout_height="25dp"
+                                <Button
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/orders" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="5dp"
                                     android:text="Order"
-                                    android:textColor="@color/colorBlack"
-                                    android:textSize="12dp" />
+                                    android:textColor="@color/colorWhite"
+                                    android:background="@drawable/radiusblue"
+                                    android:textSize="8dp"/>
+
                             </LinearLayout>
                         </LinearLayout>
 
@@ -510,23 +492,17 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp">
+                                android:layout_marginLeft="10dp">
 
-                                <ImageView
-                                    android:layout_width="25dp"
-                                    android:layout_height="25dp"
+                                <Button
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/pricetag" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginTop="5dp"
                                     android:text="Cek Harga"
-                                    android:textColor="@color/colorBlack"
-                                    android:textSize="12dp" />
+                                    android:textColor="@color/colorWhite"
+                                    android:background="@drawable/radiusblue"
+                                    android:textSize="8dp"/>
+
                             </LinearLayout>
                         </LinearLayout>
 
