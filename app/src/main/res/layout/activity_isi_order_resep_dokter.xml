@@ -116,7 +116,7 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
+                            <RelativeLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp">
@@ -128,9 +128,10 @@
                                     android:text="Order"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"/>
+                                    android:textSize="8dp"
+                                    android:layout_alignParentRight="true"/>
 
-                            </LinearLayout>
+                            </RelativeLayout>
                         </LinearLayout>
 
 
@@ -241,7 +242,7 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
+                            <RelativeLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp">
@@ -253,9 +254,10 @@
                                     android:text="Cek Harga"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"/>
+                                    android:textSize="8dp"
+                                    android:layout_alignParentRight="true"/>
 
-                            </LinearLayout>
+                            </RelativeLayout>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -365,7 +367,7 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
+                            <RelativeLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp">
@@ -377,9 +379,10 @@
                                     android:text="Order"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"/>
+                                    android:textSize="8dp"
+                                    android:layout_alignParentRight="true"/>
 
-                            </LinearLayout>
+                            </RelativeLayout>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -489,7 +492,7 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <LinearLayout
+                            <RelativeLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp">
@@ -501,9 +504,10 @@
                                     android:text="Cek Harga"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"/>
+                                    android:textSize="8dp"
+                                    android:layout_alignParentRight="true"/>
 
-                            </LinearLayout>
+                            </RelativeLayout>
                         </LinearLayout>
 
                     </LinearLayout>
