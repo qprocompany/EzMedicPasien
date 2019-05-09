@@ -83,7 +83,9 @@
             android:parentActivityName=".MenuHistory" />
         <activity
             android:name=".TambahAlamat"
-            android:parentActivityName=".IsiGantiAlamat"/>
+            android:parentActivityName=".IsiGantiAlamat" />
+        <activity android:name=".IsiOrderResepDokter"
+            android:parentActivityName=".IsiResep"/>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity

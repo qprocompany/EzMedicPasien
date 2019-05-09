@@ -9,7 +9,7 @@ import android.widget.RadioGroup;
 
 public class IsiGantiAlamat extends AppCompatActivity {
 
-    LinearLayout UbahAlamat,UbahAlamat2,TambahAlamatBaru;
+    LinearLayout UbahAlamat,UbahAlamat2,TambahAlamatBaru,alamat,alamat2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,5 +45,24 @@ public class IsiGantiAlamat extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        alamat = (LinearLayout) findViewById(R.id.alamat);
+        alamat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiGantiAlamat.this, IsiResep.class);
+                startActivity(intent);
+            }
+        });
+
+        alamat2 = (LinearLayout) findViewById(R.id.alamat2);
+        alamat2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(IsiGantiAlamat.this, IsiResep.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
