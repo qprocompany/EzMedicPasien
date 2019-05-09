@@ -15,7 +15,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="250dp">
+            android:layout_height="300dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="harga : Rp.12.500,00 / tablet"
+                            android:text="HET : Rp.12.500,00 / tablet"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
                     </LinearLayout>
@@ -102,7 +102,7 @@
                     <LinearLayout
                         android:id="@+id/popEmail"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:gravity="center_vertical"
                         android:orientation="vertical">
@@ -183,7 +183,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="harga : Rp.12.500,00 / tablet"
+                            android:text="HET : Rp.12.500,00 / tablet"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
                     </LinearLayout>
@@ -198,7 +198,7 @@
                     <LinearLayout
                         android:id="@+id/popEmail3"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:gravity="center_vertical"
                         android:orientation="vertical">
@@ -234,7 +234,7 @@
                         <TextView
                             android:layout_width="51dp"
                             android:layout_height="wrap_content"
-                            android:text="OE/"
+                            android:text="R/"
                             android:textAlignment="center"
                             android:textSize="30dp"
                             android:textStyle="bold" />
@@ -280,7 +280,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="harga : Rp.70.000,00 / botol"
+                            android:text="HET : Rp.70.000,00 / botol"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -296,7 +296,7 @@
                     <LinearLayout
                         android:id="@+id/popEmail1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:gravity="center_vertical"
                         android:orientation="vertical">
@@ -332,7 +332,7 @@
                         <TextView
                             android:layout_width="51dp"
                             android:layout_height="wrap_content"
-                            android:text="OE/"
+                            android:text="R/"
                             android:textAlignment="center"
                             android:textSize="30dp"
                             android:textStyle="bold" />
@@ -378,7 +378,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="harga : Rp.70.000,00 / botol"
+                            android:text="HET : Rp.70.000,00 / botol"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -394,7 +394,7 @@
                     <LinearLayout
                         android:id="@+id/popEmail2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:gravity="center_vertical"
                         android:orientation="vertical">
@@ -410,42 +410,6 @@
                     </LinearLayout>
 
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:elevation="5dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center_vertical"
-                        android:orientation="vertical">
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:gravity="center_vertical"
-                        android:orientation="vertical">
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
 
             </LinearLayout>
         </ScrollView>
@@ -489,6 +453,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/GantiAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -508,28 +473,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Jl. Cikini Raya Blok M no 201. Kota Jkt Utara. Daerah Khusus ibukota Jakarta, Indonesia"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/GantiAlamat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="5dp"
-            android:background="@drawable/radius"
-            android:elevation="5dp"
-            android:orientation="vertical">
+                android:layout_marginTop="5dp"
+                android:text="Arief Millen"
+                android:textColor="@color/colorBlack"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Ganti Alamat"
-                android:textAlignment="center"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Jl. Cikini Raya Blok M no 201. Kota Jkt Utara. Daerah Khusus ibukota Jakarta, Indonesia"/>
 
         </LinearLayout>
 
@@ -543,9 +495,12 @@
             android:id="@+id/orders"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorBlueJeansDark"
-            android:text="Order"
+            android:text="Send"
+            android:textSize="20dp"
+            android:background="@drawable/radiusblue"
             android:textColor="@color/colorWhite"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="50dp"
             android:layout_alignParentBottom="true"/>
 
     </RelativeLayout>

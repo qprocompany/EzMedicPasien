@@ -1,25 +1,27 @@
 package com.example.user.pasienapplication;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 
-public class PopTelepon extends Activity {
+public class PopOrder extends AppCompatActivity {
 
-    Button buttonconfrim;
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pop_telepon);
+        setContentView(R.layout.activity_pop_order);
 
-        buttonconfrim = (Button) findViewById(R.id.buttonconfirm);
-        buttonconfrim.setOnClickListener(new View.OnClickListener() {
+        button = (Button) findViewById(R.id.buttonconfirmorder);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(PopTelepon.this, RatingHistory.class);
+                Intent intent =  new Intent(PopOrder.this, MenuActivity.class);
                 startActivity(intent);
             }
         });
@@ -30,6 +32,6 @@ public class PopTelepon extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.9),(int) (height*.3));
     }
 }

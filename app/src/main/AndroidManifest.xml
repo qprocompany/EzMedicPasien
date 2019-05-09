@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InformasiObat" />
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +28,8 @@
         <activity
             android:name=".IsiHistory"
             android:parentActivityName=".MenuHistory" />
+        <activity android:name=".InformasiObat"
+            android:parentActivityName=".MenuObat"/>
         <activity
             android:name=".FormRatingDokter"
             android:parentActivityName=".MenuActivity" />
@@ -84,8 +85,9 @@
         <activity
             android:name=".TambahAlamat"
             android:parentActivityName=".IsiGantiAlamat" />
-        <activity android:name=".IsiOrderResepDokter"
-            android:parentActivityName=".IsiResep"/>
+        <activity
+            android:name=".IsiOrderResepDokter"
+            android:parentActivityName=".IsiResep" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
@@ -106,6 +108,12 @@
         <activity
             android:name=".PopTelepon"
             android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopOrder"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopCekHarga"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>

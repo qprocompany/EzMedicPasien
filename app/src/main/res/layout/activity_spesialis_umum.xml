@@ -83,6 +83,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
                         android:id="@+id/lokasi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
@@ -241,6 +248,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
@@ -398,6 +412,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
@@ -555,6 +576,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
@@ -710,6 +738,13 @@
                                 android:text="Rp.25000" />
                         </LinearLayout>
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -894,6 +929,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
@@ -1049,6 +1091,13 @@
                                 android:text="Rp.25000" />
                         </LinearLayout>
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/colorBlack"
+                        android:padding="1dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"

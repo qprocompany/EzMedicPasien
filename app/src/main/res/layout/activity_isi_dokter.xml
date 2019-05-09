@@ -234,11 +234,13 @@
             android:id="@+id/btnRequest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:text="Appointment"
-            android:textColor="@color/colorWhite"
+            android:text="Request Appointment"
+            android:textSize="20dp"
             android:background="@drawable/radiusblue"
-            android:elevation="5dp"/>
+            android:textColor="@color/colorWhite"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
 </LinearLayout>

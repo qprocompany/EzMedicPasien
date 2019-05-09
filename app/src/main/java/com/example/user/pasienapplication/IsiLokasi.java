@@ -11,7 +11,7 @@ public class IsiLokasi extends AppCompatActivity {
         setContentView(R.layout.activity_isi_lokasi);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(" ");
+        getSupportActionBar().setTitle("Maps");
 
     }
 }

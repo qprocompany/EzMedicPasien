@@ -112,22 +112,23 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <RelativeLayout
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right">
 
                                 <Button
-                                    android:layout_width="55dp"
+                                    android:id="@+id/popOrder"
+                                    android:layout_width="70dp"
                                     android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
                                     android:text="Order"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"
-                                    android:layout_alignParentRight="true"/>
+                                    android:textSize="10dp" />
 
-                            </RelativeLayout>
+                            </LinearLayout>
                         </LinearLayout>
 
 
@@ -231,22 +232,23 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <RelativeLayout
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right">
 
                                 <Button
-                                    android:layout_width="55dp"
+                                    android:id="@+id/popCekHarga"
+                                    android:layout_width="70dp"
                                     android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
                                     android:text="Cek Harga "
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"
-                                    android:layout_alignParentRight="true"/>
+                                    android:textSize="10dp" />
 
-                            </RelativeLayout>
+                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -350,22 +352,23 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <RelativeLayout
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right">
 
                                 <Button
-                                    android:layout_width="55dp"
+                                    android:layout_width="70dp"
                                     android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
                                     android:text="Order"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"
+                                    android:textSize="10dp"
                                     android:layout_alignParentRight="true"/>
 
-                            </RelativeLayout>
+                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -469,22 +472,23 @@
                                     android:textSize="12dp" />
                             </LinearLayout>
 
-                            <RelativeLayout
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right">
 
                                 <Button
-                                    android:layout_width="55dp"
+                                    android:layout_width="70dp"
                                     android:layout_height="30dp"
                                     android:layout_marginLeft="5dp"
                                     android:text="Cek Harga"
                                     android:textColor="@color/colorWhite"
                                     android:background="@drawable/radiusblue"
-                                    android:textSize="8dp"
-                                    android:layout_alignParentRight="true"/>
+                                    android:textSize="10dp"
+                                    />
 
-                            </RelativeLayout>
+                            </LinearLayout>
                         </LinearLayout>
 
                     </LinearLayout>

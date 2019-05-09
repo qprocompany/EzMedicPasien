@@ -9,29 +9,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="20dp">
-
-        <RatingBar
-            android:id="@+id/ratingBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="2dp"
-            android:numStars="5"
-            android:progressTint="@color/colorFlower"
-            android:backgroundTint="@color/colorFlower"
-            android:rating="4.5"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dokter nya lumayan, orangnya santai tidak marah - marah"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:gravity="center"
+            android:text="Price will be check, \nPlease wait!"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -41,11 +29,11 @@
         android:layout_alignParentBottom="true">
 
         <Button
-            android:id="@+id/buttonconfirm"
+            android:id="@+id/buttonconfirmcek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Confirm"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:background="@drawable/radiusblue"
             android:textColor="@color/colorWhite"
             android:layout_marginVertical="10dp"

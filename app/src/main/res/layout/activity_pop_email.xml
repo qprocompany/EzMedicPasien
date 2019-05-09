@@ -61,12 +61,12 @@
         android:id="@+id/buttonEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simpan"
+        android:text="Confirm"
         android:textSize="16dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/colorBlueJeansDark"
+        android:background="@drawable/radiusblue"
         android:textColor="@color/colorWhite"
         android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
         android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
