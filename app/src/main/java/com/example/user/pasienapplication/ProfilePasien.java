@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class ProfilePasien extends AppCompatActivity {
 
-    ImageView popNama, popEmail, popTelepon, popLahir, popNegara, popTinggal, popNama1;
+    ImageView popNama, popNama1, popNama2, popNama3, popTinggal, popTinggal1, popTinggal2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,11 @@ public class ProfilePasien extends AppCompatActivity {
 
         popNama = (ImageView) findViewById(R.id.popNama);
         popNama1 = (ImageView) findViewById(R.id.popNama1);
+        popNama2 = (ImageView) findViewById(R.id.popNama2);
+        popNama3 = (ImageView) findViewById(R.id.popNama3);
         popTinggal = (ImageView) findViewById(R.id.popTinggal);
+        popTinggal1 = (ImageView) findViewById(R.id.popTinggal1);
+        popTinggal2 = (ImageView) findViewById(R.id.popTinggal2);
 //        popTelepon = (ImageView) findViewById(R.id.popTelepon);
 //        popEmail = (ImageView) findViewById(R.id.popEmail);
 //        popNegara = (ImageView) findViewById(R.id.popNegara);
@@ -70,8 +74,32 @@ public class ProfilePasien extends AppCompatActivity {
                 startActivity(new Intent(ProfilePasien.this, PopNama.class));
             }
         });
+        popNama2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopNama.class));
+            }
+        });
+        popNama3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopNama.class));
+            }
+        });
 
         popTinggal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopTinggal.class));
+            }
+        });
+        popTinggal1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfilePasien.this, PopTinggal.class));
+            }
+        });
+        popTinggal2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ProfilePasien.this, PopTinggal.class));

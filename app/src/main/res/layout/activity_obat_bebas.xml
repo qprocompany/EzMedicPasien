@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ObatBebas">
+    tools:context="com.example.user.pasienapplication.ObatBebas">
 
     <LinearLayout
         android:layout_width="match_parent"

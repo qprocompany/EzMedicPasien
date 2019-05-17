@@ -474,12 +474,14 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/popNama2"
                                 android:layout_width="25dp"
                                 android:layout_height="23dp"
                                 android:layout_marginTop="10dp"
                                 android:src="@drawable/change" />
 
                             <ImageView
+                                android:id="@+id/popTinggal1"
                                 android:layout_width="25dp"
                                 android:layout_height="23dp"
                                 android:layout_margin="10dp"
@@ -658,6 +660,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/popNama3"
                                 android:layout_width="25dp"
                                 android:layout_height="23dp"
                                 android:layout_marginTop="10dp"
@@ -665,6 +668,7 @@
 
 
                             <ImageView
+                                android:id="@+id/popTinggal2"
                                 android:layout_width="25dp"
                                 android:layout_height="23dp"
                                 android:layout_margin="10dp"
