@@ -96,7 +96,6 @@
                         android:padding="1dp"></LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
@@ -104,11 +103,16 @@
                         android:textSize="12dp" />
 
                     <TextView
-                        android:id="@+id/textView21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Lokasi : Rumah Sakit Suka Hati"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ket : Dokter Lumayan Baik tidak susah di..."
                         android:textSize="12dp" />
 
                 </LinearLayout>
@@ -181,10 +185,9 @@
                     android:layout_marginBottom="5dp">
 
                     <TextView
-                        android:id="@+id/textView23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="28 April 2019"
+                        android:text="2 Mei 2019"
                         android:textColor="@color/colorBlack"
                         android:textSize="16dp"/>
 
@@ -210,6 +213,12 @@
                         android:text="Lokasi : Rumah Sakit Konoha"
                         android:layout_marginTop="10dp"
                         android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ket : Dokter Fast Respon dan tidak lama pe..."
+                        android:textSize="12dp" />
 
                 </LinearLayout>
 

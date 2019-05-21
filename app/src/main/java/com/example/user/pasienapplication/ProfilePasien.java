@@ -57,10 +57,6 @@ public class ProfilePasien extends AppCompatActivity {
         popTinggal = (ImageView) findViewById(R.id.popTinggal);
         popTinggal1 = (ImageView) findViewById(R.id.popTinggal1);
         popTinggal2 = (ImageView) findViewById(R.id.popTinggal2);
-//        popTelepon = (ImageView) findViewById(R.id.popTelepon);
-//        popEmail = (ImageView) findViewById(R.id.popEmail);
-//        popNegara = (ImageView) findViewById(R.id.popNegara);
-//        popLahir = (ImageView) findViewById(R.id.popLahir);
 
         popNama.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,20 +101,6 @@ public class ProfilePasien extends AppCompatActivity {
                 startActivity(new Intent(ProfilePasien.this, PopTinggal.class));
             }
         });
-//
-//        popTelepon.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(ProfilePasien.this, PopTelepon.class));
-//            }
-//        });
-//
-//        popEmail.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(ProfilePasien.this, PopEmail.class));
-//            }
-//        });
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

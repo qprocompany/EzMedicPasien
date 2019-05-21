@@ -119,7 +119,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/radius"
@@ -138,7 +138,6 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView2"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_margin="10dp"
@@ -150,11 +149,52 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Graduate :"
+                        android:text="Lulusan"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Lulusan dari Universitas Indonesia bidang kedokteran"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/pharmacy" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Kursus/Seminar :"
                         android:textColor="@color/colorBlack"
                         android:textSize="12dp" />
 
@@ -166,11 +206,10 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Graduate at University of Indonesian medical field"
+                        android:text="Medco Medical Bimbel"
                         android:textColor="@color/colorBlack"
                         android:textSize="12dp" />
                 </LinearLayout>
@@ -200,7 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Practical Training :"
+                        android:text="Praktek Kesehatan :"
                         android:textColor="@color/colorBlack"
                         android:textSize="12dp" />
 
@@ -222,6 +261,10 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></LinearLayout>
 
         </LinearLayout>
     </ScrollView>
