@@ -179,7 +179,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/IsiAbout"
+                android:id="@+id/IsiUlangUang"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_marginRight="10dp"
@@ -201,7 +201,7 @@
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/about" />
+                        app:srcCompat="@drawable/topup" />
                 </LinearLayout>
 
                 <TextView
@@ -211,7 +211,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:gravity="center"
-                    android:text="About"
+                    android:text="Isi Ulang"
                     android:textAlignment="center"
                     android:textColor="@color/colorBlack"
                     android:textSize="20dp" />

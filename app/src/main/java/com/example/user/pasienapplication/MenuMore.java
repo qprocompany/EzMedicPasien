@@ -17,15 +17,15 @@ import android.widget.Toast;
 
 public class MenuMore extends AppCompatActivity {
 
-    LinearLayout IsiFaq, IsiHelp, IsiTerm, IsiPrivacy, IsiAbout, IsiLanguage;
+    LinearLayout IsiFaq, IsiHelp, IsiTerm, IsiPrivacy, IsiUlangUang, IsiLanguage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_more);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("More");
+
 
 
         IsiFaq = (LinearLayout) findViewById(R.id.IsiFaq);
@@ -36,6 +36,43 @@ public class MenuMore extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        IsiHelp = (LinearLayout) findViewById(R.id.IsiHelp);
+        IsiHelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiHelp.class);
+                startActivity(intent);
+            }
+        });
+
+        IsiTerm = (LinearLayout) findViewById(R.id.IsiTerm);
+        IsiTerm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiTermOfService.class);
+                startActivity(intent);
+            }
+        });
+
+        IsiPrivacy = (LinearLayout) findViewById(R.id.IsiPrivacy);
+        IsiPrivacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiPrivacy.class);
+                startActivity(intent);
+            }
+        });
+
+        IsiLanguage = (LinearLayout) findViewById(R.id.IsiLanguage);
+        IsiLanguage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiLanguage.class);
+                startActivity(intent);
+            }
+        });
+
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNav);
         Menu menu = bottomNavigationView.getMenu();

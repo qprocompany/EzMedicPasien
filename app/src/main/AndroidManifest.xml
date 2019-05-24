@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuLabDetail"></activity>
+        <activity android:name=".MenuLabDetail" />
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -90,9 +90,20 @@
         <activity
             android:name=".IsiOrderResepDokter"
             android:parentActivityName=".IsiResep" />
-        <activity android:name=".IsiFaq"
+        <activity
+            android:name=".IsiFaq"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiHelp"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiTermOfService"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiPrivacy"
+            android:parentActivityName=".MenuMore" />
+        <activity android:name=".IsiLanguage"
             android:parentActivityName=".MenuMore"/>
-
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
