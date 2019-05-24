@@ -25,7 +25,7 @@ public class PopEmail extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(PopEmail.this, IsiResep.class);
+                Intent intent =  new Intent(PopEmail.this, ResepDokter.class);
                 startActivity(intent);
             }
         });

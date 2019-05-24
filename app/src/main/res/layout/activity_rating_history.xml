@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.pasienapplication.RatingHistory">
+    tools:context="com.example.user.pasienapplication.RatingHistory"
+    android:background="@color/light_gray">
 
     <ScrollView
         android:layout_width="match_parent"
