@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuLabDetail" />
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,6 +50,9 @@
         <activity
             android:name=".MenuLab"
             android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".MenuLabDetail"
+            android:parentActivityName=".MenuLab"/>
         <activity
             android:name=".MenuRadiologi"
             android:parentActivityName=".MenuActivity" />
@@ -102,8 +104,9 @@
         <activity
             android:name=".IsiPrivacy"
             android:parentActivityName=".MenuMore" />
-        <activity android:name=".IsiLanguage"
-            android:parentActivityName=".MenuMore"/>
+        <activity
+            android:name=".IsiLanguage"
+            android:parentActivityName=".MenuMore" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
@@ -129,6 +132,9 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopCekHarga"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopDetailLab"
             android:theme="@style/AppTheme.CustomTheme" />
     </application>
 

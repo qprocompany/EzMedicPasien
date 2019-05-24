@@ -92,6 +92,7 @@
                     android:layout_weight="1">
 
                     <TextView
+                        android:id="@+id/detailprosedur"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Detail Prosedur"
@@ -948,6 +949,7 @@
 
 
             <Button
+                android:id="@+id/requestlab"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
