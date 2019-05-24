@@ -17,13 +17,25 @@ import android.widget.Toast;
 
 public class MenuMore extends AppCompatActivity {
 
+    LinearLayout IsiFaq, IsiHelp, IsiTerm, IsiPrivacy, IsiAbout, IsiLanguage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_more);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("More");
 
+
+        IsiFaq = (LinearLayout) findViewById(R.id.IsiFaq);
+        IsiFaq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiFaq.class);
+                startActivity(intent);
+            }
+        });
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNav);
         Menu menu = bottomNavigationView.getMenu();

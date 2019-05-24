@@ -4,7 +4,6 @@
     <item android:id="@+id/notifBtn"
         android:title="Notif"
         app:showAsAction="always"
-        android:icon="@drawable/message"
-        >
+        android:icon="@drawable/message">
     </item>
 </menu>

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.pasienapplication.ProfilePasien">
+    tools:context="com.example.user.pasienapplication.ProfilePasien"
+    android:background="@color/light_gray">
 
 
     <LinearLayout
@@ -445,7 +446,7 @@
                                 android:id="@+id/textView23"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Brian Imanuel Soewarno "
+                                android:text="Brian Imanuel "
                                 android:textColor="@color/colorBlack"
                                 android:textSize="16dp" />
 
@@ -466,7 +467,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="82dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="right"
                             android:layout_marginLeft="10dp"

@@ -90,6 +90,9 @@
         <activity
             android:name=".IsiOrderResepDokter"
             android:parentActivityName=".IsiResep" />
+        <activity android:name=".IsiFaq"
+            android:parentActivityName=".MenuMore"/>
+
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
