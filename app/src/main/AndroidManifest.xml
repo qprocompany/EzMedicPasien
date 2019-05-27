@@ -52,7 +52,7 @@
             android:parentActivityName=".MenuActivity" />
         <activity
             android:name=".MenuLabDetail"
-            android:parentActivityName=".MenuLab"/>
+            android:parentActivityName=".MenuLab" />
         <activity
             android:name=".MenuRadiologi"
             android:parentActivityName=".MenuActivity" />
@@ -107,6 +107,8 @@
         <activity
             android:name=".IsiLanguage"
             android:parentActivityName=".MenuMore" />
+        <activity android:name=".IsiUlangDompet"
+            android:parentActivityName=".MenuMore"/>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity

@@ -73,6 +73,15 @@ public class MenuMore extends AppCompatActivity {
             }
         });
 
+        IsiUlangUang = (LinearLayout) findViewById(R.id.IsiUlangUang);
+        IsiUlangUang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiUlangDompet.class);
+                startActivity(intent);
+            }
+        });
+
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNav);
         Menu menu = bottomNavigationView.getMenu();
