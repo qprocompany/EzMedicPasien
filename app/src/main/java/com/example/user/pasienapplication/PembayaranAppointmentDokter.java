@@ -6,27 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class IsiDokter extends AppCompatActivity {
+public class PembayaranAppointmentDokter extends AppCompatActivity {
 
-    Button btnRequest;
+    Button btnPembayaranDokter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_isi_dokter);
+        setContentView(R.layout.activity_pembayaran_appointment_dokter);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Appointment");
+        getSupportActionBar().setTitle("Pembayaran");
 
-        btnRequest = (Button) findViewById(R.id.btnRequest);
-        btnRequest.setOnClickListener(new View.OnClickListener() {
+
+        btnPembayaranDokter = (Button) findViewById(R.id.btnPembayaranDokter);
+        btnPembayaranDokter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(IsiDokter.this, PembayaranAppointmentDokter.class);
+                Intent intent =  new Intent(PembayaranAppointmentDokter.this, FormRatingDokter.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

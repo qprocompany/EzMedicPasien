@@ -25,6 +25,8 @@
         <activity
             android:name=".IsiDokter"
             android:parentActivityName=".MenuAppointment" />
+        <activity android:name=".PembayaranAppointmentDokter"
+            android:parentActivityName=".MenuAppointment"/>
         <activity
             android:name=".IsiHistory"
             android:parentActivityName=".MenuHistory" />
@@ -107,8 +109,18 @@
         <activity
             android:name=".IsiLanguage"
             android:parentActivityName=".MenuMore" />
-        <activity android:name=".IsiUlangDompet"
-            android:parentActivityName=".MenuMore"/>
+        <activity
+            android:name=".IsiUlangDompet"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiAlarmPengingat"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiAlarmPengingatKemarin"
+            android:parentActivityName=".MenuMore" />
+        <activity
+            android:name=".IsiAlarmPengingatBesok"
+            android:parentActivityName=".MenuMore" />
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
@@ -137,6 +149,9 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopDetailLab"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopAlarmTambah"
             android:theme="@style/AppTheme.CustomTheme" />
     </application>
 

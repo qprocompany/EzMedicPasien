@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class MenuMore extends AppCompatActivity {
 
-    LinearLayout IsiFaq, IsiHelp, IsiTerm, IsiPrivacy, IsiUlangUang, IsiLanguage;
+    LinearLayout IsiFaq, IsiHelp, IsiTerm, IsiPrivacy, IsiUlangUang, IsiLanguage, IsiAlarm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +78,15 @@ public class MenuMore extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =  new Intent(MenuMore.this, IsiUlangDompet.class);
+                startActivity(intent);
+            }
+        });
+
+        IsiAlarm = (LinearLayout) findViewById(R.id.IsiAlarm);
+        IsiAlarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(MenuMore.this, IsiAlarmPengingat.class);
                 startActivity(intent);
             }
         });
