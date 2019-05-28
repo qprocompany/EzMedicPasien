@@ -25,7 +25,8 @@
         <activity
             android:name=".IsiDokter"
             android:parentActivityName=".MenuAppointment" />
-        <activity android:name=".PembayaranAppointmentDokter"
+        <activity
+            android:name=".PembayaranAppointmentDokter"
             android:parentActivityName=".MenuAppointment"/>
         <activity
             android:name=".IsiHistory"

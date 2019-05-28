@@ -83,7 +83,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE I PROMO"
+                            android:text="BABYGRAM"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -98,7 +98,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="12 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -118,6 +118,7 @@
                     </LinearLayout>
 
                     <Button
+                        android:id="@+id/requestradio"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
@@ -164,7 +165,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE II PROMO"
+                            android:text="BG MOBILE X RAY"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -179,7 +180,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="14 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -250,7 +251,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE III \nPROMO"
+                            android:text="BA-ENEMA"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -265,7 +266,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="15 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -330,7 +331,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="METABOLIC SYNDROME \nPROMO"
+                            android:text="BNO-IVP"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -345,7 +346,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="12 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -417,7 +418,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="BASIC CHECK UP PROMO"
+                            android:text="BONE AGE"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -432,7 +433,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -498,7 +499,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="LIPID MONITORING PROMO"
+                            android:text="BONE SURVEY"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -513,7 +514,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="5 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -584,7 +585,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="THYROID FUNCTION \nPROMO"
+                            android:text="CALCANEUS AP/LAT"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -599,7 +600,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="2 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -664,7 +665,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="KIDNEY FUNCTION \nMONITORING PROMO"
+                            android:text="CALCANEUS BILATERAL"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -679,7 +680,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="4 tests covered"
+                            android:text="Rontgen"
                             android:textAlignment="center" />
                     </LinearLayout>
 
