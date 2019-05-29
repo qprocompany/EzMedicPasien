@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class IsiAlarmPengingat extends AppCompatActivity {
 
-    LinearLayout IsiAlarmKemarin, IsiAlarmBesok;
+    LinearLayout IsiAlarmKemarin, IsiAlarmBesok, KeteranganAlarm;
     Button button;
 
     @Override
@@ -34,6 +34,15 @@ public class IsiAlarmPengingat extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(IsiAlarmPengingat.this, IsiAlarmPengingatBesok.class);
+                startActivity(intent);
+            }
+        });
+
+        KeteranganAlarm = (LinearLayout) findViewById(R.id.KeteranganAlarm);
+        KeteranganAlarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IsiAlarmPengingat.this, IsiAlarmPengingatKemarin.class);
                 startActivity(intent);
             }
         });

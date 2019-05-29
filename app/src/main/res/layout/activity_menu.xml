@@ -84,8 +84,8 @@
                         android:layout_gravity="start"
                         android:layout_marginLeft="5dp"
                         android:gravity="start"
-                        android:text="Berbicara dengan dokter ahli \n\secara online. 24/7"
-                        android:textSize="15dp"/>
+                        android:text="Berbicara dengan dokter ahli secara online. \n\Dengan jangka waktu 24/7"
+                        android:textSize="12dp"/>
 
                 </LinearLayout>
 
@@ -155,9 +155,9 @@
                         android:layout_gravity="start"
                         android:layout_marginLeft="5dp"
                         android:gravity="start"
-                        android:text="Membeli obat secara online \ntanpa perlu susah lagi."
+                        android:text="Membeli obat secara online tanpa perlu \n\ribet dan susah lagi."
                         android:textAlignment="textStart"
-                        android:textSize="15dp"/>
+                        android:textSize="12dp"/>
 
                 </LinearLayout>
 
@@ -229,7 +229,7 @@
                         android:gravity="start"
                         android:text="Check Lab tanpa ribet, hanya perlu meliat lab yang kalian butuhkan"
                         android:textAlignment="textStart"
-                        android:textSize="15dp"/>
+                        android:textSize="12dp"/>
 
                 </LinearLayout>
 
@@ -302,7 +302,7 @@
                         android:gravity="start"
                         android:text="Check bagian dalam tubuh anda sebelum terlambat."
                         android:textAlignment="textStart"
-                        android:textSize="15dp"/>
+                        android:textSize="12dp"/>
 
                 </LinearLayout>
 
@@ -375,7 +375,7 @@
                         android:gravity="start"
                         android:text="History kalian selama memakai aplikasi dapat di lihat disini."
                         android:textAlignment="textStart"
-                        android:textSize="15dp"/>
+                        android:textSize="12dp"/>
                 </LinearLayout>
 
             </LinearLayout>

@@ -31,6 +31,6 @@ public class PopAlarmTambah extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.9),(int) (height*.2));
+        getWindow().setLayout((int) (width*.8),(int) (height*.3));
     }
 }

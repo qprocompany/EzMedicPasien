@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MenuLabDetail extends AppCompatActivity {
 
     Button requestlab;
+    RadioGroup radioGroup;
     TextView detailprosedur;
 
     @Override
@@ -19,6 +21,8 @@ public class MenuLabDetail extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Laboratorium");
+
+        radioGroup = (RadioGroup) findViewById(R.id.RadioHari);
 
         requestlab = (Button) findViewById(R.id.requestlab);
         requestlab.setOnClickListener(new View.OnClickListener() {
