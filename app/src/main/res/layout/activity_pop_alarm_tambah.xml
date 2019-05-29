@@ -10,31 +10,42 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Pengingat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
 
         <android.support.design.widget.TextInputEditText
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="20dp" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text=":"
-            android:textSize="40dp" />
+            android:textSize="20dp" />
 
         <android.support.design.widget.TextInputEditText
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="20dp"/>
+
 
 
     </LinearLayout>
@@ -42,19 +53,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_margin="5dp">
 
-        <android.support.design.widget.TextInputLayout
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Alarm"/>
+
+        <Spinner
+            android:id="@+id/spinKeluarga"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+        </Spinner>
+    </LinearLayout>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Keterangan Obat"
-                android:textSize="12dp"
-                android:inputType="text"/>
-        </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh Pemakain obat/alamat"
+            android:textSize="12dp"/>
     </LinearLayout>
 
     <RelativeLayout

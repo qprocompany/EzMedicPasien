@@ -59,7 +59,8 @@
                             android:layout_gravity="start"
                             android:layout_weight="1"
                             android:text="Diskon Beli Obat senilai Rp.10.000!"
-                            android:textAlignment="textStart" />
+                            android:textAlignment="textStart"
+                            android:layout_marginRight="2dp"/>
 
                         <TextView
                             android:id="@+id/textView23"

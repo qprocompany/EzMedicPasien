@@ -38,14 +38,14 @@ public class IsiAlarmPengingat extends AppCompatActivity {
             }
         });
 
-        KeteranganAlarm = (LinearLayout) findViewById(R.id.KeteranganAlarm);
-        KeteranganAlarm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(IsiAlarmPengingat.this, IsiAlarmPengingatKemarin.class);
-                startActivity(intent);
-            }
-        });
+//        KeteranganAlarm = (LinearLayout) findViewById(R.id.KeteranganAlarm);
+//        KeteranganAlarm.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(IsiAlarmPengingat.this, PopAlarmKet.class);
+//                startActivity(intent);
+//            }
+//        });
 
         button = (Button) findViewById(R.id.buttonTambahAlarm);
         button.setOnClickListener(new View.OnClickListener() {
