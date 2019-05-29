@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -17,6 +19,7 @@ public class MenuLab extends AppCompatActivity {
     AutoCompleteTextView search_item;
     ArrayList<String> street = new ArrayList<>();
     Button labdetail;
+    LinearLayout detailprosedur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,14 @@ public class MenuLab extends AppCompatActivity {
             }
         });
 
+        detailprosedur = (LinearLayout) findViewById(R.id.detailprosedur);
+        detailprosedur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuLab.this, PopDetailLab.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

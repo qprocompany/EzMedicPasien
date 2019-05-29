@@ -191,7 +191,9 @@
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
 
             <RadioGroup
                 android:id="@+id/RadioHari"
@@ -199,390 +201,42 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <LinearLayout
+                <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="horizontal"
-                    android:weightSum="7">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Hari ini" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="24 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Besok" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="25 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Minggu" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="26 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Senin" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="27 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Selasa" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="28 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Rabu" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="29 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="bottom"
-                                    android:text="Kamis" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:text="30 Mei" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
+                    android:text="Minggu" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Senin" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Selasa" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rabu" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kamis" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jumat" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sabtu" />
 
             </RadioGroup>
-
 
         </HorizontalScrollView>
 
@@ -605,348 +259,56 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:weightSum="4">
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
 
-            <LinearLayout
+            <RadioGroup
+                android:id="@+id/RadioJam"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="2">
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="07:00 - 08:00" />
 
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="07:00 - 08:00" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="08:00 - 09:00" />
 
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="07:00 - 08:00" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="2">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="09:00 - 10:00" />
 
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="09:00 - 10:00" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="10:00 - 11:00" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:orientation="horizontal"
-                        android:layout_weight="1"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="100dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:text="10:00 - 11:00" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="2">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="11:00 - 12:00" />
 
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="11:00 - 12:00" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:weightSum="2">
+                    android:text="12:00 - 13:00" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:orientation="horizontal"
-                        android:layout_weight="1"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="100dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:text="12:00 - 13:00" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="2">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
+                    android:text="13:00 - 14:00" />
 
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="13:00 - 14:00" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <RadioButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
+                    android:text="14:00 - 15:00" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="100dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:text="14:00 - 15:00" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
+            </RadioGroup>
 
         </LinearLayout>
 
