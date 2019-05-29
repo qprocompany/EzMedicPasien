@@ -68,10 +68,22 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="20dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="HEALTHY LIFE I"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -84,7 +96,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE I PROMO"
+                            android:text=""
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -99,7 +112,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="12 tests covered"
+                            android:text="12 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -120,8 +133,9 @@
 
                     <Button
                         android:id="@+id/labdetail"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -150,10 +164,22 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="20dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="HEALTHY LIFE II"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -166,7 +192,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE II PROMO"
+                            android:text=""
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -181,7 +208,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="14 tests covered"
+                            android:text="14 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -201,8 +228,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -237,10 +265,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="15dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -252,7 +277,24 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="HEALTHY LIFE III \nPROMO"
+                            android:text="HEALTHY LIFE III"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -267,7 +309,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="15 tests covered"
+                            android:text="15 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -287,8 +329,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -317,10 +360,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="15dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -332,7 +372,24 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="METABOLIC SYNDROME \nPROMO"
+                            android:text="METABOLIC"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="SYNDROME"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -347,7 +404,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="12 tests covered"
+                            android:text="12 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -367,8 +424,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -403,10 +461,22 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="20dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BASIC CHECK UP "
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -419,7 +489,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="BASIC CHECK UP PROMO"
+                            android:text=""
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -434,7 +505,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6 tests covered"
+                            android:text="6 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -454,8 +525,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -484,10 +556,22 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="20dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="LIPID"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -500,7 +584,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="LIPID MONITORING PROMO"
+                            android:text="MONITORING"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -515,7 +600,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="5 tests covered"
+                            android:text="5 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -535,8 +620,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -571,10 +657,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="15dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -586,7 +669,24 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="THYROID FUNCTION \nPROMO"
+                            android:text="THYROID"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FUNCTION"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -601,7 +701,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="2 tests covered"
+                            android:text="2 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -621,8 +721,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
@@ -651,10 +752,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="15dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            app:srcCompat="@drawable/pharmacy" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -666,7 +764,24 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="KIDNEY FUNCTION \nMONITORING PROMO"
+                            android:text="KIDNEY FUNCTION"
+                            android:textSize="19dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="MONITORING"
+                            android:textSize="19dp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -681,7 +796,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="4 tests covered"
+                            android:text="4 tests"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -701,8 +816,9 @@
                     </LinearLayout>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:text="REQUEST"
                         android:textColor="@color/bluepurple"
