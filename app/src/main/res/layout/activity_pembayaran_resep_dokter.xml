@@ -180,7 +180,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Rp.12.000,00 / tablet"
+                            android:text="Rp.12.500,00 / tablet"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp"
                             android:textStyle="bold" />
@@ -201,7 +201,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Rp 144.000"
+                            android:text="Rp 150.000"
                             android:textAlignment="center"
                             android:textColor="@color/colorBlack"
                             android:textSize="14dp" />
@@ -371,7 +371,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Rp.85.000 / tablet"
+                            android:text="Rp.70.000 / tablet"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp"
                             android:textStyle="bold" />
@@ -391,7 +391,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Rp 170.000"
+                            android:text="Rp 140.000"
                             android:textAlignment="center"
                             android:textColor="@color/colorBlack"
                             android:textSize="14dp" />
@@ -455,7 +455,7 @@
                             android:layout_marginTop="5dp"
                             android:layout_marginRight="5dp"
                             android:gravity="end"
-                            android:text="Rp 484.000"
+                            android:text="Rp 470.000"
                             android:textAlignment="textEnd"
                             android:textSize="20dp" />
                     </LinearLayout>
@@ -506,7 +506,7 @@
                             android:layout_marginTop="5dp"
                             android:layout_marginRight="5dp"
                             android:gravity="end"
-                            android:text="Rp 484.000"
+                            android:text="Rp 470.000"
                             android:textAlignment="textEnd"
                             android:textSize="20dp" />
                     </LinearLayout>

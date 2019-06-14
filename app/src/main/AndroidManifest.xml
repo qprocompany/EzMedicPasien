@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MenuKeranjang" />
-        <activity android:name=".PopAlarmKet" />
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -121,8 +120,11 @@
         <activity
             android:name=".IsiAlarmPengingatBesok"
             android:parentActivityName=".MenuMore" />
-        <activity android:name=".PembayaranResepDokter"
-            android:parentActivityName=".IsiOrderResepDokter"></activity>
+        <activity
+            android:name=".PembayaranResepDokter"
+            android:parentActivityName=".IsiOrderResepDokter" />
+        <activity android:name=".PembayaranObatBebas"
+            android:parentActivityName=".ObatBatuk"></activity>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
@@ -152,6 +154,7 @@
         <activity
             android:name=".PopDetailLab"
             android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".PopAlarmKet" />
         <activity
             android:name=".PopAlarmTambah"
             android:theme="@style/AppTheme.CustomTheme" />

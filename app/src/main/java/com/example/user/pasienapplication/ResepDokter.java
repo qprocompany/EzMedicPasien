@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 
 public class ResepDokter extends AppCompatActivity {
 
-    LinearLayout detailResep,isiGantiAlamat,popEmail,popEmail1,popEmail2,popEmail3;;
+    LinearLayout detailResep,isiGantiAlamat,popEmail,popEmail1,popEmail2,popEmail3;
     Button orders;
 
     @Override
