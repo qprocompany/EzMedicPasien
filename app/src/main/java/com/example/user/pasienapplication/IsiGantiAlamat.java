@@ -50,7 +50,7 @@ public class IsiGantiAlamat extends AppCompatActivity {
         alamat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(IsiGantiAlamat.this, IsiResep.class);
+                Intent intent =  new Intent(IsiGantiAlamat.this, ResepDokter.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class IsiGantiAlamat extends AppCompatActivity {
         alamat2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(IsiGantiAlamat.this, IsiResep.class);
+                Intent intent =  new Intent(IsiGantiAlamat.this, ResepDokter.class);
                 startActivity(intent);
             }
         });

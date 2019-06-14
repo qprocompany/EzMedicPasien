@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuKeranjang"></activity>
+        <activity android:name=".MenuKeranjang" />
         <activity android:name=".PopAlarmKet" />
         <activity android:name=".MenuActivity">
             <intent-filter>
@@ -68,9 +68,6 @@
             android:name=".ResepDokter"
             android:parentActivityName=".MenuObat" />
         <activity
-            android:name=".IsiResep"
-            android:parentActivityName=".ResepDokter" />
-        <activity
             android:name=".SpesialisUmum"
             android:parentActivityName=".MenuAppointment" />
         <activity
@@ -96,7 +93,7 @@
             android:parentActivityName=".IsiGantiAlamat" />
         <activity
             android:name=".IsiOrderResepDokter"
-            android:parentActivityName=".IsiResep" />
+            android:parentActivityName=".ResepDokter" />
         <activity
             android:name=".IsiFaq"
             android:parentActivityName=".MenuMore" />
@@ -124,11 +121,13 @@
         <activity
             android:name=".IsiAlarmPengingatBesok"
             android:parentActivityName=".MenuMore" />
+        <activity android:name=".PembayaranResepDokter"
+            android:parentActivityName=".IsiOrderResepDokter"></activity>
         <activity android:name=".ProfilePasien" />
         <activity android:name=".MenuMore" />
         <activity
             android:name=".IsiGantiAlamat"
-            android:parentActivityName=".IsiResep" />
+            android:parentActivityName=".ResepDokter" />
         <activity
             android:name=".AddKeluarga"
             android:parentActivityName=".ProfilePasien" />

@@ -92,29 +92,27 @@
 
                 <RadioButton
                     android:id="@+id/RadioNom1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
                     android:checked="true"
                     android:text="+ Rp.50.000"
+                    android:textSize="12dp"
                     android:layout_weight="1"/>
 
                 <RadioButton
                     android:id="@+id/RadioNom2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
                     android:text="+ Rp. 100.000"
+                    android:textSize="12dp"
                     android:layout_weight="1"/>
 
                 <RadioButton
                     android:id="@+id/RadioNom3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
                     android:text="+ Rp. 200.000"
+                    android:textSize="12dp"
                     android:layout_weight="1"/>
 
             </RadioGroup>

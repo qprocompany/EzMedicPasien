@@ -38,7 +38,6 @@
                     android:padding="5dp">
 
                     <ImageView
-                        android:id="@+id/imageView7"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"

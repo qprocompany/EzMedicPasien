@@ -24,7 +24,7 @@ public class IsiOrderResepDokter extends AppCompatActivity {
         popOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =  new Intent(IsiOrderResepDokter.this, PopOrder.class);
+                Intent intent =  new Intent(IsiOrderResepDokter.this, PembayaranResepDokter.class);
                 startActivity(intent);
             }
         });
